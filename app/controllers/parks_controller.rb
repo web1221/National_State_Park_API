@@ -10,13 +10,16 @@ class ParksController < ApplicationController
   end
 
   def create
-    @park = Park.create(park_params)
-    json_response(@park)
+    @park = Park.create!(park_params)
+    json_response(@park, 201)
   end
 
   def update
     @park = Park.find(params[:id])
-    @park.update(park_params)
+    if @park.update!(park_params)
+      render status: 200, json: {
+        message: "This park has been updated successfully"
+      }
   end
 
   def destroy
