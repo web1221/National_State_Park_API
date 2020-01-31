@@ -12,7 +12,7 @@ describe 'POST /parks', :type => :request do
 
     context '(bad request)' do
         it 'returns [error message, status code 422]' do
-            post '/parks', params: {name: '', age: 0}
+            post '/parks', params: {name: '', type_of_park: ""}
 
             expect(JSON.parse(response.body)['message']).to eq 'Validation failed: Name can\'t be blank, Type of park can\'t be blank'
         end

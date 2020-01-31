@@ -1,16 +1,28 @@
 {
   "RSpec": {
     "coverage": {
-      "/Users/Webs/Desktop/project11_jan31/spec/requests/get_parks_spec.rb": {
+      "/Users/Webs/Desktop/project11_jan31/spec/requests/delete_parks_spec.rb": {
         "lines": [
           1,
           null,
           1,
           1,
           1,
+          1,
+          1,
           null,
           1,
           1,
+          null,
+          null,
+          null,
+          1,
+          1,
+          1,
+          null,
+          1,
+          1,
+          null,
           null,
           null
         ]
@@ -307,10 +319,10 @@
           1,
           null,
           1,
-          0,
+          1,
           null,
           1,
-          0,
+          1,
           null,
           null
         ]
@@ -319,7 +331,7 @@
         "lines": [
           1,
           1,
-          1,
+          4,
           null,
           null
         ]
@@ -338,8 +350,8 @@
           null,
           null,
           1,
-          0,
-          0,
+          2,
+          1,
           null,
           null,
           1,
@@ -352,14 +364,19 @@
           null,
           null,
           1,
-          0,
-          0,
+          2,
+          1,
+          1,
+          null,
+          null,
+          null,
+          null,
           null,
           null,
           1,
           null,
           1,
-          0,
+          2,
           null,
           null
         ]
@@ -400,6 +417,44 @@
           null
         ]
       },
+      "/Users/Webs/Desktop/project11_jan31/spec/requests/get_parks_spec.rb": {
+        "lines": [
+          1,
+          null,
+          1,
+          1,
+          1,
+          null,
+          1,
+          1,
+          null,
+          null
+        ]
+      },
+      "/Users/Webs/Desktop/project11_jan31/spec/requests/post_parks_spec.rb": {
+        "lines": [
+          1,
+          null,
+          1,
+          1,
+          1,
+          1,
+          null,
+          1,
+          1,
+          null,
+          null,
+          null,
+          1,
+          1,
+          1,
+          null,
+          1,
+          null,
+          null,
+          null
+        ]
+      },
       "/Users/Webs/Desktop/project11_jan31/db/seeds.rb": {
         "lines": [
           1,
@@ -425,6 +480,6 @@
         ]
       }
     },
-    "timestamp": 1580506057
+    "timestamp": 1580506803
   }
 }
