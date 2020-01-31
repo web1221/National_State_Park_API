@@ -20,6 +20,7 @@ class ParksController < ApplicationController
       render status: 200, json: {
         message: "This park has been updated successfully"
       }
+    end
   end
 
   def destroy
