@@ -1,8 +1,11 @@
 class ParksController < ApplicationController
   def index
-    name = params[:name]
-    @parks = Park.search(name)
+    @parks = Park.search(params[:name])
+    if params[:random]
+     json_response(@parks.random)
+   else
     json_response(@parks)
+  end
   end
 
   def show
