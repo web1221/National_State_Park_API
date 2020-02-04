@@ -1,11 +1,11 @@
 # _National and State Park API_
 
-#### **Mario's Super Store is an independent project for Epicodus, 01/17/20**
+#### **State and National Park API is an independent project for Epicodus, 01/17/20**
 
 #### By _**Angela Weber**_
 
 ## Description
-  _This application was created to demonstrate concepts of creating an API on rails. The application allows the user to get a list of Park names, and whether it is a State or National Park. The API also allows you to add, update, and delete parks from the API._
+  _This application was created to demonstrate concepts of creating an API on Rails. The application allows the user to get a list of Park names, and whether it is a State or National Park. The API also allows you to add, update, and delete parks from the API._
 
 ## Setup/Installation Requirements
 
