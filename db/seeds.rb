@@ -5,9 +5,9 @@ class Seed
   end
 
   def generate_parks
-    parks = ["Crater Lake", "Yellow Stone", "Yosmite", "Joshua tree", "Great Falls"]
+    parks = ["Crater Lake", "Yellow Stone", "Yosmite", "Joshua tree", "Great Falls", "Shenandoah", "Grand Canyon", "Zion"]
     Park.destroy_all
-    5.times do |i|
+    8.times do |i|
       park = Park.create!(
         name: parks.pop,
         type_of_park: "National Park"
