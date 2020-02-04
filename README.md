@@ -25,11 +25,7 @@
 * **_POST_** You can make post to the API adding a park
   * **_POST_** _localHost:3000/parks_ you will new to add the params of "name" and "type_of_park".
 | name           | type_of_park   |
-<<<<<<< HEAD
-| :------------- | ----------:   |
-=======
 | :------------- | :----------:   |
->>>>>>> 49af33f2f1357a5a6cf49d53a002ae2899447275
 |  Yellow Stone  | National Park  |
 * **_PATCH_** You can also make updates to specific parks.
   * **_PATCH_** _localHost:3000/parks/**parkID**_ you will need to add either name or type_of_park to params with the updated values
