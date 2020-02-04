@@ -24,9 +24,9 @@
   * **_GET_** _localHost:3000/parks/**parkID**_ will return the specific park related to the park_id number
 * **_POST_** You can make post to the API adding a park
   * **_POST_** _localHost:3000/parks_ you will new to add the params of "name" and "type_of_park".
-  | name      | type_of_park    |
-| :------------- | :----------: |
-|  Yellow Stone | National Park   |
+| name           | type_of_park   |
+| :------------- | :----------:   |
+|  Yellow Stone  | National Park  |
 * **_PATCH_** You can also make updates to specific parks.
   * **_PATCH_** _localHost:3000/parks/**parkID**_ you will need to add either name or type_of_park to params with the updated values
   * This will return "This park has been updated successfully"
